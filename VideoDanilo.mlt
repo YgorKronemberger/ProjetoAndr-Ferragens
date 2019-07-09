@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.17.0" title="Shotcut version 19.06.15" producer="main_bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:06:06.840">
+    <property name="length">9172</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:06:06.840"/>
+  </playlist>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo2/Materiais/ImagensVideos/Inicio1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2019-07-08T19:14:55</property>
+    <property name="shotcut:hash">7da05cf327e93916dedf7ddb9719dfdf</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:00:05.800">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.520=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:00.560</property>
+    </filter>
+    <filter id="filter1" out="00:00:05.800">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.520=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">14</property>
+    </filter>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Inicio2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2019-07-08T19:10:19</property>
+    <property name="shotcut:hash">8795f3f76de4576f4e69d0785b661a2a</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Inicio3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">54b80d729d2e3d140cd069a05d7dd271</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" out="00:00:08.280">
+      <property name="start">1</property>
+      <property name="level">00:00:07.840=1;00:00:08.280=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:00.480</property>
+    </filter>
+    <filter id="filter3" out="00:00:08.280">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:07.840=0;00:00:08.280=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">12</property>
+    </filter>
+  </producer>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:00:25.400">
+    <property name="length">00:00:25:11</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0092.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">0c63eab4d2f6b4591600d5b06f972dce</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0092.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" in="00:00:08.280" out="00:00:19.240">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.400=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:00.440</property>
+    </filter>
+    <filter id="filter5" in="00:00:08.280" out="00:00:19.240">
+      <property name="start">1</property>
+      <property name="level">00:00:10.480=1;00:00:10.960=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">13</property>
+    </filter>
+    <filter id="filter6" in="00:00:08.280" out="00:00:19.240">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.400=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">11</property>
+    </filter>
+    <filter id="filter7" in="00:00:08.280" out="00:00:19.240">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:10.480=0;00:00:10.960=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">13</property>
+    </filter>
+  </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter8" in="00:00:06.600" out="00:00:08.280">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.480=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:00.520</property>
+    </filter>
+    <filter id="filter9" in="00:00:06.600" out="00:00:08.280">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.480=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">13</property>
+    </filter>
+  </producer>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Capturar.PNG</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2019-07-08T19:57:47</property>
+    <property name="shotcut:hash">d5da25bd0e3577b849096a766769ddb0</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter10" in="00:00:24.520" out="00:00:25.880">
+      <property name="argument">Pegou um 'HP' pra fazer 1 + 1</property>
+      <property name="geometry">318 928 1227 148 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">1</property>
+    </filter>
+  </producer>
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter11" in="00:00:25.920" out="00:00:28.000">
+      <property name="argument">Pegou uma 'HP' pra fazer 1 + 1</property>
+      <property name="geometry">275 907 1383 169 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer10" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter12" in="00:00:28.040" out="00:00:29.200">
+      <property name="start">1</property>
+      <property name="level">00:00:00.720=1;00:00:01.160=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:00.480</property>
+      <property name="geometry">00:00:02.840=0 0 0 0 1;00:00:03.280=0 0 0 0 1</property>
+    </filter>
+    <filter id="filter13" in="00:00:28.040" out="00:00:29.200">
+      <property name="argument">Pegou uma 'HP' pra fazer 1 + 1</property>
+      <property name="geometry">318 928 1227 148 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter14" in="00:00:28.040" out="00:00:29.200">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.720=0;00:00:01.160=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">12</property>
+    </filter>
+  </producer>
+  <producer id="producer11" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo2/Materiais/ImagensVideos/Imagem3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">fc9be4865cc6879e7774fb3427608d95</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter15" out="00:00:06.400">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter16" out="00:00:06.400">
+      <property name="start">1</property>
+      <property name="level">00:00:05.440=1;00:00:06.400=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer12" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/8cb9db5c-a480-43ae-9a1b-c8c7805dc64a.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">47e4ad4577fa8fed0f1203fb5d8477e9</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer13" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Amigo/2fdf8297-378e-4634-8fc9-ba6954bc1a28.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">b7aa26263b90ebc082d335cec331f7de</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer14" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Amigo/be6b2c0c-e313-4bdd-a7b9-ef29cb8a58e5.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">ef37fd4ba3417a861118e18de1ffadfe</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer15" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Amigo/977f1952-1d13-4fee-b5c2-2fad722ab08d.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">e9e14d0299f7d76c721719c313b29dde</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer16" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Amigo/380d6ec4-8749-4f62-9e2e-9e07b81dd7f6.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">7ea58b2888d875705736cd29c1d8cc6a</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer17" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Profissional/25ba579b-2311-49e1-8389-d3b773497791.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">aee45be6726ae721703f75da042a6afa</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer18" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Profissional/82c052d0-29fa-4c4c-9bb3-081919c33ad7.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">0ac7321f669bccfc63f3248d7cc203f9</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer19" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Pessoa/675513f9-7a3f-4f47-a2cf-ade900fdb99b.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">d2f1662569bc9895ca04bfc430ee7f6b</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer20" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Pessoa/ce6a0ae6-fef1-4a40-92ad-1fc064d247f9 (1).jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">b30796185d90c53c3882aa8e226908b8</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer21" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Pessoa/7ab296e9-9084-4714-9c30-4f8eaf4a1f85.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">5a46ccd691004b828a689484edaebf52</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer22" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/0f7927cd-6302-42b7-ba27-622f9c7fddad.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">eddbfde09d252b817a5c6ef43dbb7b3c</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer23" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/4067cacf-35e6-4af9-9480-cd1589a6d634.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">4f0c952bb773616469e8d9243da07832</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer24" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/b4674100-2c67-43ee-a4b7-1888ff5c7a68.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">0379ed0acf472a401f888aab2444c860</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer25" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/68fac383-5df9-47cc-9d7f-105acae7a619.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">3dc6d834c30e8eedd66eeecf0b7c7706</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer26" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Amigo/523c4c64-7fd8-4f7c-81e1-174e35cfe684.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">a8293c3e248fa25ebd5d39711cab20a5</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer27" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Amigo/65ae645e-e7db-42b4-92f3-5af1635097c6.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">cf6ffc5df967250269d3bcc0101b5483</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer28" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Amigo/25ffde59-6945-4dea-97f2-d083f5d3c07f.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">8e82f123999f4a6345a0e6d96cf1a578</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer29" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Amigo/0c839572-717a-40a3-9de5-d79d805d403f.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">e624e084a4614e45824051d64f1771fb</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer30" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Pessoa/b6182389-1442-4092-9b73-179f078c9ce2.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">ec31e499e576e76baa64f74bcda0e97d</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer31" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Pessoa/9cac9562-4e4b-4f6c-bbe9-eb6e48326970.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">07f63a2c5e707e0d686e2f12d1778031</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer32" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Profissional/055105d0-df46-4986-b917-440469c758e2.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">35b45919d1139be23b73411c8a32ba37</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer33" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/d8a0eacb-abc7-4876-ad03-60ed938f29ed.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">414a67f588f4baf6ccefcf944e3d9a70</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter17" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">00:00:03.000=1;00:00:03.960=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer34" title="Anonymous Submission" in="00:00:00.000" out="00:01:37.000">
+    <property name="length">00:01:37:01</property>
+    <property name="eof">pause</property>
+    <property name="resource">Vídeo de Ygor Kronemberger.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-07-08T17:29:04</property>
+    <property name="shotcut:hash">729e2c1b93852d74d035d808fb4c45ef</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Vídeo de Ygor Kronemberger.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter18" out="00:01:37.000">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:01.200=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.240</property>
+    </filter>
+    <filter id="filter19" out="00:01:37.000">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer35" title="Anonymous Submission" in="00:00:00.000" out="00:01:36.960">
+    <property name="length">00:01:37:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Vídeo de Ygor Kronemberger🌙 (1).mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-07-08T22:36:50</property>
+    <property name="shotcut:hash">cf686049a489969727ed3246e44c3b69</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Vídeo de Ygor Kronemberger🌙 (1).mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter20" in="00:00:11.880" out="00:01:36.960">
+      <property name="start">1</property>
+      <property name="level">00:01:24.120=1;00:01:25.080=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer36" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/5a402bf4-7d67-4efd-8c2c-49cda84b2833.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">ea24106a16d0c751362ad069f9ef0fef</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter21" out="00:00:04.840">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter22" out="00:00:04.840">
+      <property name="start">1</property>
+      <property name="level">00:00:03.880=1;00:00:04.840=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer37" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/15f1e345-34b5-4051-9346-3ce011d3fdc6.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">b85c11e7986a451a3f7f4b151c362b4c</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter23" out="00:00:24.040">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter24" out="00:00:24.040">
+      <property name="start">1</property>
+      <property name="level">00:00:23.080=1;00:00:24.040=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <blank length="00:00:00.440"/>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:05.800"/>
+    <entry producer="producer1" in="00:00:00.240" out="00:00:07.680"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:08.280"/>
+    <blank length="00:00:00.640"/>
+    <entry producer="producer3" in="00:00:08.280" out="00:00:19.240"/>
+    <entry producer="producer4" in="00:00:06.600" out="00:00:08.280"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:06.720"/>
+    <entry producer="producer6" in="00:00:08.320" out="00:00:12.600"/>
+    <entry producer="producer7" in="00:00:12.640" out="00:00:24.160"/>
+    <entry producer="producer8" in="00:00:24.520" out="00:00:25.880"/>
+    <entry producer="producer9" in="00:00:25.920" out="00:00:28.000"/>
+    <entry producer="producer10" in="00:00:28.040" out="00:00:29.200"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:06.400"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:03.440"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:03.360"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:03.600"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer23" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer25" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer26" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer27" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer28" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer29" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer30" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer31" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer32" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer34" in="00:00:00.000" out="00:01:37.000"/>
+    <entry producer="producer35" in="00:00:11.880" out="00:01:36.960"/>
+    <entry producer="producer36" in="00:00:00.000" out="00:00:04.840"/>
+    <entry producer="producer37" in="00:00:00.000" out="00:00:24.040"/>
+  </playlist>
+  <producer id="producer38" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo2/Materiais/ImagensVideos/Fundo, começo.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">0e32b038a0dc55fdf93a6f1cd814d71f</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter25" out="00:00:02.800">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.400=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:00.440</property>
+    </filter>
+    <filter id="filter26" out="00:00:02.800">
+      <property name="start">1</property>
+      <property name="level">00:00:02.280=1;00:00:02.800=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">14</property>
+    </filter>
+    <filter id="filter27" out="00:00:02.800">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:02.280=0;00:00:02.800=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">14</property>
+    </filter>
+    <filter id="filter28" out="00:00:02.800">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.400=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">11</property>
+    </filter>
+  </producer>
+  <producer id="producer39" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/brinco.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">a3bdac84514b71ed37f4b004c1905589</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter29" out="00:00:02.440">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.440=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:00.480</property>
+    </filter>
+    <filter id="filter30" out="00:00:02.440">
+      <property name="start">1</property>
+      <property name="level">00:00:01.960=1;00:00:02.440=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">13</property>
+    </filter>
+    <filter id="filter31" out="00:00:02.440">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.440=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">12</property>
+    </filter>
+    <filter id="filter32" out="00:00:02.440">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:01.960=0;00:00:02.440=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">13</property>
+    </filter>
+  </producer>
+  <producer id="producer40" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo2/Materiais/ImagensVideos/marca.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2019-07-08T19:59:31</property>
+    <property name="shotcut:hash">43be54e3e17471dfdd36e34b19e26ae8</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter33" out="00:00:04.240">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">1123 223 143 145 1</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer41" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo2/Materiais/ImagensVideos/Imagem2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">5e8afc56fb00baabb9b3434da629ec50</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter34" in="00:00:00.440" out="00:00:19.400">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:22.720"/>
+    <entry producer="producer38" in="00:00:00.000" out="00:00:02.800"/>
+    <blank length="00:00:09.880"/>
+    <entry producer="producer39" in="00:00:00.000" out="00:00:02.440"/>
+    <entry producer="producer40" in="00:00:00.000" out="00:00:04.240"/>
+    <blank length="00:05:05.680"/>
+    <entry producer="producer41" in="00:00:00.440" out="00:00:19.400"/>
+  </playlist>
+  <producer id="producer42" title="Anonymous Submission" in="00:00:00.000" out="00:00:25.400">
+    <property name="length">00:00:25:11</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0092.mp4</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">0c63eab4d2f6b4591600d5b06f972dce</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0092.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter35" in="00:00:08.280" out="00:00:19.240">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.400=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:00.440</property>
+    </filter>
+    <filter id="filter36" in="00:00:08.280" out="00:00:19.240">
+      <property name="start">1</property>
+      <property name="level">00:00:10.480=1;00:00:10.960=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">13</property>
+    </filter>
+    <filter id="filter37" in="00:00:08.280" out="00:00:19.240">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.400=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">00:00:00.440</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter38" in="00:00:08.280" out="00:00:19.240">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:10.480=0;00:00:10.960=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">13</property>
+    </filter>
+    <filter id="filter39" in="00:00:08.280" out="00:00:19.240">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-16.7</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer43" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter40" in="00:00:06.600" out="00:00:08.280">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.480=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:00.520</property>
+    </filter>
+    <filter id="filter41" in="00:00:06.600" out="00:00:08.280">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.480=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">13</property>
+    </filter>
+  </producer>
+  <producer id="producer44" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer45" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer46" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter42" in="00:00:24.520" out="00:00:25.880">
+      <property name="argument">Pegou um 'HP' pra fazer 1 + 1</property>
+      <property name="geometry">318 928 1227 148 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">1</property>
+    </filter>
+  </producer>
+  <producer id="producer47" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter43" in="00:00:25.920" out="00:00:28.000">
+      <property name="argument">Pegou uma 'HP' pra fazer 1 + 1</property>
+      <property name="geometry">275 907 1383 169 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer48" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.200">
+    <property name="length">00:00:29:06</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo/Aleatórios/VID-20190707-WA0094.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2009-09-18T19:11:34</property>
+    <property name="shotcut:hash">692aba816e9a4f85755c8949e590cfad</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">VID-20190707-WA0094.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter44" in="00:00:28.040" out="00:00:29.200">
+      <property name="start">1</property>
+      <property name="level">00:00:00.720=1;00:00:01.160=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:00.480</property>
+      <property name="geometry">00:00:02.840=0 0 0 0 1;00:00:03.280=0 0 0 0 1</property>
+    </filter>
+    <filter id="filter45" in="00:00:28.040" out="00:00:29.200">
+      <property name="argument">Pegou uma 'HP' pra fazer 1 + 1</property>
+      <property name="geometry">318 928 1227 148 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter46" in="00:00:28.040" out="00:00:29.200">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.720=0;00:00:01.160=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">12</property>
+    </filter>
+  </producer>
+  <producer id="producer49" title="Anonymous Submission" in="00:00:00.000" out="00:01:37.000">
+    <property name="length">00:01:37:01</property>
+    <property name="eof">pause</property>
+    <property name="resource">Vídeo de Ygor Kronemberger.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-07-08T17:29:04</property>
+    <property name="shotcut:hash">729e2c1b93852d74d035d808fb4c45ef</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Vídeo de Ygor Kronemberger.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter47" out="00:01:37.000">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">13.5</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <producer id="producer50" title="Anonymous Submission" in="00:00:00.000" out="00:01:36.960">
+    <property name="length">00:01:37:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Vídeo de Ygor Kronemberger🌙 (1).mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-07-08T22:36:50</property>
+    <property name="shotcut:hash">cf686049a489969727ed3246e44c3b69</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Vídeo de Ygor Kronemberger🌙 (1).mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter48" in="00:00:11.880" out="00:01:36.960">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">13.5</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter49" in="00:00:11.880" out="00:01:36.960">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:01:24.120=0;00:01:25.080=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:22.720"/>
+    <entry producer="producer42" in="00:00:08.280" out="00:00:19.240"/>
+    <entry producer="producer43" in="00:00:06.600" out="00:00:08.280"/>
+    <blank length="00:00:06.760"/>
+    <entry producer="producer44" in="00:00:08.320" out="00:00:12.600"/>
+    <entry producer="producer45" in="00:00:12.640" out="00:00:24.160"/>
+    <entry producer="producer46" in="00:00:24.520" out="00:00:25.880"/>
+    <entry producer="producer47" in="00:00:25.920" out="00:00:28.000"/>
+    <entry producer="producer48" in="00:00:28.040" out="00:00:29.200"/>
+    <blank length="00:01:32.960"/>
+    <entry producer="producer49" in="00:00:00.000" out="00:01:37.000"/>
+    <entry producer="producer50" in="00:00:11.880" out="00:01:36.960"/>
+  </playlist>
+  <producer id="producer51" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo2/Materiais/ImagensVideos/seta.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2019-07-08T20:00:42</property>
+    <property name="shotcut:hash">a76cc1b905ae41d4059233e1ea1adc56</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter50" in="00:00:00.160" out="00:00:04.400">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">828 377 272 271 1</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer52" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo2/Materiais/Balão.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">5c3f75fea1ea4edc7adbff59159373eb</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter51" out="00:00:12.960">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer53" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo2/Materiais/Adeus.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">0c3368d723c7e0629cd9b74928c1c4b9</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter52" in="00:00:03.360" out="00:00:09.320">
+      <property name="start">1</property>
+      <property name="level">00:00:05.000=1;00:00:05.960=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.880">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer52" in="00:00:13.000" out="00:00:14.880"/>
+    <track producer="producer53" in="00:00:03.360" out="00:00:05.240"/>
+    <transition id="transition0" out="00:00:01.880">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition1" out="00:00:01.880">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist3">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <blank length="00:00:37.920"/>
+    <entry producer="producer51" in="00:00:00.160" out="00:00:04.400"/>
+    <blank length="00:05:05.680"/>
+    <entry producer="producer52" in="00:00:00.000" out="00:00:12.960"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:01.880"/>
+    <entry producer="producer53" in="00:00:05.280" out="00:00:09.320"/>
+  </playlist>
+  <producer id="producer54" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Danilo2/Materiais/ImagensVideos/354e75e1e94b2999efa8570358afc3b9 (1).png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2019-07-08T20:10:40</property>
+    <property name="shotcut:hash">9f329354f6cedc3d39fc5196091c050c</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter53" out="00:00:04.240">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">1</property>
+      <property name="duration">4.28</property>
+    </filter>
+    <filter id="filter54" out="00:00:04.240">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">332 512 434 436 1</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist4">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V4</property>
+    <blank length="00:00:37.920"/>
+    <entry producer="producer54" in="00:00:00.000" out="00:00:04.240"/>
+  </playlist>
+  <producer id="producer55" title="Anonymous Submission" in="00:00:00.000" out="00:03:55.000">
+    <property name="length">00:03:55:01</property>
+    <property name="eof">pause</property>
+    <property name="resource">AUD-20190708-WA0044.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">c6828119640363c37a677f36b48128c6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">AUD-20190708-WA0044.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter55" out="00:01:32.920">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.960=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter56" out="00:01:32.920">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:01:31.960=0;00:01:32.920=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+    <filter id="filter57" out="00:01:32.920">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-15.7</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </producer>
+  <playlist id="playlist5">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A2</property>
+    <blank length="00:01:02.800"/>
+    <entry producer="producer55" in="00:00:00.000" out="00:01:32.920"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 19.06.15" global_feed="1" in="00:00:00.000" out="00:06:06.840">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.0627344</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:trackHeight">54</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2" hide="video"/>
+    <track producer="playlist3"/>
+    <track producer="playlist4"/>
+    <track producer="playlist5" hide="video"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition8">
+      <property name="a_track">1</property>
+      <property name="b_track">4</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition9">
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition10">
+      <property name="a_track">1</property>
+      <property name="b_track">5</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition11">
+      <property name="a_track">0</property>
+      <property name="b_track">6</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
